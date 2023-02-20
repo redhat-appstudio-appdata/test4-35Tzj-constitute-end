@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: ocpnode-emiy
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:utherp0-tenant-ocpnode-emiy
+      - image: quay.io/redhat-appstudio/user-workload@sha256:373b7a816d56cd5ff069a246b175932f06575e381d95b0effb5bf3cfa1445cc1
         name: my-nodejs
         ports:
         - containerPort: 3001
